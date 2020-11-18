@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plataformas de Video Conferencias</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body  style="background-color:#22262c;">
+  <div class="container-fluid">
+    <!-- jumbotron 12 columnas -->
+    <!-- menu 2 columnas -->
+    <!-- contenido 8 columnas -->
+
+    <div>
+      <!--Jumbotron-->
+      <div style="margin-bottom: 8px;"  class=" jumbotron row text-center bg-dark">
+        <div class="col-2">
+          <img src="logoppb.jpg" class="rounded img-fluid img-responsive" width="80%" alt="LOGO PPB"  >
+      </div>
+      <div class="col-8"> 
+        <h1 class="display-4" style="font-family: arial black;  color:white">Plataformas de Video Conferencias</h1>
+        <p style="font-family: arial black; font-size: 120%; color:white">Proyecto educativo del tercer curso </p>
+        </div>
+          
+        <div class="col-2">
+          <img src="logomec.jpg" class="rounded img-fluid img-responsive" width="90%" alt="LOGO PPB">
+        </div>
+              </div>
+
+      <div class=" mr-1 row">
+        <div style="padding-left: 0px;" class=" col-md-3 col-lg-2"> 
+          
+          <!-- Nav Bar -->
+                    <nav class=" navbar bg-dark navbar-dark">
+                    <ul class="navbar-nav">
+              <!-- Portada -->
+          <li class="nav-item">
+            <a class="nav-link" target="visor" href="Portada.html">Portada</a>
+          </li>
+              <!-- Presentacion de la investigacion -->
+              <li class="nav-item ">
+                <a class="nav-link" target="visor" href="intro.html">Presentación de la Investigación</a>
+              </li>
+              <!-- planteamiento del problema -->
+              <li class="nav-item">
+                <a class="nav-link " target="visor" href="plantproblem.html">Planteamiento del problema</a>
+              </li>
+              <!-- hipotesis -->
+              <li class="nav-item">
+                <a class="nav-link" target="visor" href="hipotesis.html">Hipótesis</a>
+              </li>
+              <!-- objetivos -->
+              <li class="nav-item">
+                <a class="nav-link" target="visor" href="objetivos.html">Objetivos</a>
+              </li>
+              <!-- variables -->
+              <li class="nav-item">
+                <a class="nav-link" target="visor" href="variables.html">Variables</a>
+              </li>
+               <!-- Marco Metodologico -->
+          <li class="nav-item">
+            <a class="nav-link" target="visor" href="metodologico.html">Marco Metodológico</a>
+          </li>
+                <!-- hipotesis -->
+            <li class="nav-item">
+              <a class="nav-link" target="visor" href="teorico.html">Marco Teórico</a>
+            </li>
+          
+          
+          
+          
+          
+                   
+          
+          
+          </ul>
+           </nav>
+        </div>
+
+        <div class="col-md-7 col-lg-10">
+          <iframe id="ivisor" name="visor" src="portada.html"  style="border:5px solid  darkslategrey; height: 200%;width: 100%;" title="Iframe Example"></iframe>
+        </div>
+      </div>
+    </div>
+
+<script>
+  $("#ivisor").height($(document).height());
+</script>
+
+</body>
+
+</html>
